@@ -6,6 +6,8 @@ from agno.models.groq import Groq
 from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.tools.yfinance import YFinanceTools
 
+#teste
+
 # Carrega as variáveis de ambiente
 load_dotenv()
 
@@ -48,7 +50,7 @@ def main():
         
         # Executar a análise
         analyst.print_response(
-            "quais são as melhores ações para investir no momento com menor risco, Responda em português do Brasil.",
+            "Quais são as melhores ações para investir no momento com menor risco, Responda em português do Brasil em 2025.",
             stream=True
         )
     except Exception as e:
